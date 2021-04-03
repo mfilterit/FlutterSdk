@@ -23,7 +23,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
-
     defaultConfig {
         minSdkVersion 16
     }
@@ -31,4 +30,6 @@ android {
 
 dependencies {
     implementation files('libs/mFilterit_SDK_6.0.1_encrypt_p.jar')
+    implementation 'com.android.installreferrer:installreferrer:1.0'
+    implementation 'com.google.android.gms:play-services-base:12+'
 }
